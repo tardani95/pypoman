@@ -138,5 +138,5 @@ setup(
     keywords="convex, polyhedron, polyhedra, polytope, projection, duality",
     classifiers=classifiers.split('\n'),
     packages=['pypoman'],
-    install_requires=['cvxopt', 'pycddlib']
+    install_requires=['cvxopt', 'pycddlib', 'numpy', 'scipy']
 )
